@@ -13,7 +13,7 @@ def eas_url():
         for urls in eass:
             connection = urllib3.PoolManager()
 
-            input=('ip_address/dasdec_public/dash/Orig_405_2019_02_07_16_02_04/%s' % (urls))
+            input=('ip_address/dasdec_public/example/%s' % (urls))
             g=connection.request("GET", input)
             h=connection.request("HEAD", input)
             p=connection.request("POST", input)
