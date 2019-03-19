@@ -21,7 +21,7 @@ print(y.strftime("%A"))
 
 # a Python object (dict):
 a = {
-	"raja ":"sabari"
+	"Tamil ":"Arasan"
 }
 
 # convert into JSON:
