@@ -4,8 +4,8 @@ from fabric.api import env
 from fabric.network import disconnect_all
 
 env.hosts = [
-    '192.168.1.21',
-    '192.168.1.37',
+    'x.x.x.x',
+    'x.x.x.x',
 ]
 
 def host_type():
