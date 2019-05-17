@@ -3,14 +3,14 @@ pack1=( 'ABC DEF GHI' )
 
 pack_var=maxx_pack1.split(" ")
 
-bu_pack2=('JKL MNO PQR ')
+busss_pack2=('JKL MNO PQR ')
 
-pack2=buck_pack2.split(" ")
+pack2=busss_pack2.split(" ")
 
 
 sss_pack1=('WXY ZWA MMM')
 
-ssss_pack1=buck_pack1.split(" ")
+ssss_pack1=sss_pack1.split(" ")
 
 ips={'z.z.z.z w.w.w.w'}
 
@@ -27,7 +27,7 @@ def south_channels():
                 print('%s channel was problem not connecting ' % maxx_channels)
 
 
-def eye_channels():
+def my_channels():
     print('checking %d  dddd pack1 channels in  streamers' % len(pack2))
     for vvv_channels_1 in pack2:
         for ip in ips:
@@ -38,7 +38,7 @@ def eye_channels():
             if r.status != 200:
                 print('%s channel was problem not connecting' % vvv_channels_1 )
 
-def uckye_channels2():
+def my_channels2():
     print('checking %d  cccc pack2 channels in  streamers' % len(ssss_pack1))
     for bu_channels_2 in ssss_pack1:
         for ip in ips:
@@ -51,5 +51,5 @@ def uckye_channels2():
 
 #
 #south_channels()
-#eye_channels()
-#uckye_channels2()
+#my_channels()
+#my_channels2()
