@@ -24,7 +24,7 @@ def south_channels():
             r=connection.request("GET", input)
             #print(r.status)
             if r.status != 200:
-                print('%s channel was problem not connecting ' % maxx_channels)
+                print('%s channel was problem not connecting ' % vvv_channels)
 
 
 def my_channels():
