@@ -15,7 +15,7 @@ ssss_pack1=buck_pack1.split(" ")
 ips={'z.z.z.z w.w.w.w'}
 
 def south_channels():
-    print('checking %d  eeee pack1 channels in maxx streamers' % len(pack_var))
+    print('checking %d  eeee pack1 channels in  streamers' % len(pack_var))
     for vvv_channels in pack_var:
         for ip in ips:
             connection = urllib3.PoolManager()
@@ -28,7 +28,7 @@ def south_channels():
 
 
 def eye_channels():
-    print('checking %d  dddd pack1 channels in maxx streamers' % len(pack2))
+    print('checking %d  dddd pack1 channels in  streamers' % len(pack2))
     for vvv_channels_1 in pack2:
         for ip in ips:
             connection = urllib3.PoolManager()
@@ -39,7 +39,7 @@ def eye_channels():
                 print('%s channel was problem not connecting' % vvv_channels_1 )
 
 def uckye_channels2():
-    print('checking %d  cccc pack2 channels in maxx streamers' % len(ssss_pack1))
+    print('checking %d  cccc pack2 channels in  streamers' % len(ssss_pack1))
     for bu_channels_2 in ssss_pack1:
         for ip in ips:
             connection = urllib3.PoolManager()
